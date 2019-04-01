@@ -10,7 +10,7 @@ fs.readFile('./README.md', function(err, data) {
     }
     else {
     
-    const findFiles = data.toString().split('\n').length;
+    const findFiles = data.toString();
     console.log(findFiles)
         }})
 
