@@ -2,4 +2,13 @@
 //   // ...
 // };
 
-const readMe = require('./program2')
+// const fs = require('fs');
+const dir = require('./readDir');
+// const file = process.argv[2]
+
+dir().then((data) => {
+     console.log(data)
+})
+
+
+
