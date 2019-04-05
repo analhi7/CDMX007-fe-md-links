@@ -1,14 +1,23 @@
-// module.exports = () => {
-//   // ...
-// };
 
 // const fs = require('fs');
-const dir = require('./readDir');
+const readReadme = require('./readReadme')
+const linkfinder = require('./searchlink')
+const validate = require ('./validate')
+
+//const dir = require('./readDir');
 // const file = process.argv[2]
 
-dir().then((data) => {
-     console.log(data)
-})
+readReadme()
+.then((data) => linkfinder(data))
+  .then(links => validate(links))
+  .then(linkStatus =>{
+       console.log(linkStatus)
+  })
+
+
+
+
+
 
 
 
