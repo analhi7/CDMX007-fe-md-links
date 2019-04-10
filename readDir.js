@@ -33,7 +33,7 @@ const dir = async () => {
   const result = await newPromise
   return result
 };
-dir(); 
+ 
 module.exports = dir;
 
 

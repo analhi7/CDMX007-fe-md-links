@@ -20,14 +20,14 @@ const readMyFile = async () => {
   
    });
    const result = await myPromise
-   return result
+   console.log(result)
   }
 
   
 
- 
+ readMyFile()
 
-module.exports= ReadMyFile;
+module.exports= readMyFile;
 
    
 
