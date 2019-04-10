@@ -31,7 +31,7 @@ const dir = async () => {
     })
   });
   const result = await newPromise
-  return result
+  console.log( result)
 };
 dir(); 
 module.exports = dir;

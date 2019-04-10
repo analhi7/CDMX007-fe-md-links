@@ -8,13 +8,13 @@ const readMyFile = async () => {
 
        //const readmeString = "";
 
-     fs.readFile(file, (err, data) => {
+     fs.readFile(file, 'utf-8', (err, data) => {
   
        if (err) {
          reject (err);
        } else {
 
-         resolve(data.toString())
+         resolve(data)
        }
      })
   
@@ -27,7 +27,7 @@ const readMyFile = async () => {
 
  
 
-module.exports= ReadMyFile;
+module.exports= readMyFile;
 
    
 
