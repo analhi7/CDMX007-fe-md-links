@@ -1,7 +1,7 @@
 
 const stats = (arrayLinks)=>{
    
-console.log(arrayLinks.length)
+console.log("total:"+ arrayLinks.length)
 
 
 // arrayLinks.forEach(element => {
