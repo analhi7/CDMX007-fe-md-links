@@ -4,10 +4,10 @@ Librería diseñada para verificar los links dentro de un archivo con lenguaje d
 
 # Diagrama de flujo
 
-![Diagrama de Flujo](https://raw.githubusercontent.com/analhi7/CDMX007-fe-md-links/master/images/diagrama.jpeg)
+![Diagrama de Flujo](https://raw.githubusercontent.com/analhi7/CDMX007-fe-md-links/master/images/diagrama.png)
 
 
-##Board del desarrollo de la librería
+## Board del desarrollo de la librería
 
 Esta librería se desarrolló de acuerdo al diagrama de flujo anterior y a la herramienta projects que ofrece GitHub. 
 
