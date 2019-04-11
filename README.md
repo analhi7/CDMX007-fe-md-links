@@ -4,7 +4,7 @@ Librería diseñada para verificar los links dentro de un archivo con lenguaje d
 
 # Diagrama de flujo
 
-![Diagrama de Flujo](https://raw.githubusercontent.com/analhi7/CDMX007-fe-md-links/master/images/Md-links Diagrama de flujo.jpeg)
+![Diagrama de Flujo](https://raw.githubusercontent.com/analhi7/CDMX007-fe-md-links/master/images/diagrama.jpeg)
 
 
 ##Board del desarrollo de la librería
@@ -17,8 +17,11 @@ También se hizo uso de herramientas de organización de GitHub como issues y mi
 
 ![Issues](https://raw.githubusercontent.com/analhi7/CDMX007-fe-md-links/master/images/issues.PNG)
 
-![Issues](https://raw.githubusercontent.com/analhi7/CDMX007-fe-md-links/master/images/milestone.PNG)
+![Milestone](https://raw.githubusercontent.com/analhi7/CDMX007-fe-md-links/master/images/milestone.PNG)
 
+Aquí se pueden ver más a detalle el uso de estas herramientas: 
+[Board](https://github.com/analhi7/CDMX007-fe-md-links/projects/1)
+[Milestone](https://github.com/analhi7/CDMX007-fe-md-links/milestones)
 
 
 ## Preámbulo
