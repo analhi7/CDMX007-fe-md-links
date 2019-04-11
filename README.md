@@ -1,5 +1,21 @@
 # Markdown Links
 
+Librería diseñada para verificar los links dentro de un archivo con lenguaje de marcado de texto.
+
+# Diagrama de flujo
+
+
+##Board del desarrollo de la librería
+
+Esta librería se desarrolló de acuerdo al diagrama de flujo anterior y a la herramienta projects que ofrece GitHub. 
+
+
+
+
+
+
+
+
 ## Preámbulo
 https://es.wikipedia.org/wiki/Markdown
 [Markdown](https://es.wikipedia.org/wiki/Markdown) es un lenguaje de marcado
@@ -168,7 +184,7 @@ Por ejemplo:
 ```sh
 $ md-links ./some/example.md
 ./some/example.md http://algo.com/2/3/ Link a algo
-./some/example.md https://otra-cosa.net/algun-doc.html algún doc
+
 ./some/example.md http://google.com/ Google
 ```
 
@@ -191,7 +207,7 @@ Por ejemplo:
 ```sh
 $ md-links ./some/example.md --validate
 ./some/example.md http://algo.com/2/3/ ok 200 Link a algo
-./some/example.md https://otra-cosa.net/algun-doc.html fail 404 algún doc
+.
 ./some/example.md http://google.com/ ok 301 Google
 ```
 
